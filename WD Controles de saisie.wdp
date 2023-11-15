@@ -1,0 +1,102 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Controles de saisie
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Controles de saisie
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Controles de saisie
+    internal_properties : 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
+    configuration_id : 7269816971622697665
+    type : 1
+    generation_name : WD Controles de saisie.exe
+    version :
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\description.ico
+    language : 1
+ elements :
+  identifier : 0x4acc5619000fd318
+  elements :
+   -
+     name : FEN_saisieadresse
+     identifier : 0x3e300ba044bda916
+     internal_properties : CAAAAAgAAAC3k5+DIB0VFiGkfnNWIfw9z142rjL/FxqKehuZb/wW2jr6jb1Q8AJ7frginmaaZlqiog==
+     physical_name : .\FEN_saisieadresse.wdw
+     type : 2
+   -
+     name : ProcéduresGlobales
+     identifier : 0x404f60ce002a7f8f
+     internal_properties : CAAAAAgAAADEQiwIt+zE5/CD0dbpzVkiUDOfR5/bkcaL8Eayv5zwMJRab1u1S2fenYdxT9cJ8efRUQ==
+     physical_name : .\ProcéduresGlobales.wdg
+     type : 7
+   -
+     name : TEST_saisieadresse
+     identifier : 0x4561b49900019306
+     internal_properties : CAAAAAgAAADjX9vP/KkBGiW4wieaZyRdY2Yiek89bjiu6LNsvkJQuDSIJxMMPFbPgrwmkhLOqh7mbg==
+     physical_name : .\TEST_saisieadresse.wxt
+     type : 17
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  analysis : .\WD Controles de saisie.ana\WD Controles de saisie.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACmoVLMw6IVaNN+EzbCZ6RfCxh5pVzFPCZhG88znScG1z/Y/PkdJeeP3irLcbXCN5RHeNd369Fx6IvEJqGLFE9HzBcOG+6ib4SBPfY0gUSlaVKJGNF5IaHvg1Ejosjz6t2GLW9jk83MVZZ/lw==
+     code : |1+
+      // Init HF
+      HMode(HModeMulti)
+      houvre("*")
+     type : 196608
+   -
+     code : |1-
+      
+     type : 196610
+   -
+     code : |1-
+      
+     type : 196619
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Controles de saisie
+     identifier : 0x4acc561a0014d3d3
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

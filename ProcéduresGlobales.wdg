@@ -1,0 +1,109 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ProcéduresGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x104f60d2008a8f38
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : bCPVilleIncorrect
+     procedure_id : 1175264482835599160
+     type_code : 15
+     code : |1+
+      fonction bCPVilleIncorrect(sCP,sVille)
+      
+      // Renvoie Vrai si la correspondance CP/Ville n'est pas trouvée
+      HLitRecherche(VILLE,CODEPOSTAL,sCP)
+      tantque HTrouve(VILLE)
+      	si sVille~=VILLE.VILLE alors renvoyer faux
+      	HLitSuivant(VILLE,CODEPOSTAL)
+      fin
+      
+      renvoyer vrai
+      
+     type : 458752
+   -
+     name : bVerifEmail
+     procedure_id : 1175264482835795768
+     type_code : 15
+     code : |1+
+      Fonction bVerifEmail(psEMail) <métier>
+      
+      SELON EmailVérifieAdresse(psEMail,emailValideSyntaxeStrict)
+      	CAS emailAdresseErreur,emailAdresseRefusée,emailAdresseSyntaxeIncorrecte
+      		RENVOYER Faux
+      	CAS emailAdresseValide
+      		RENVOYER Vrai
+      	AUTRE CAS
+      		RENVOYER Faux
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3b4b00542d2dc8a2
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : "Les n°s de téléphone français commencent normalement par 01, 02, 03, 04, 05 ou 06"
+     index : 0
+   -
+     text :
+      fr-FR : Voulez-vous enregistrer quand même le n° saisi ?
+     index : 1
+   -
+     text :
+      fr-FR : Les n°s de téléphone français comportent normalement 10 chiffres.
+     index : 2
+   -
+     text :
+      fr-FR : Voulez-vous enregistrer quand même le n° saisi ?
+     index : 3
+   -
+     text :
+      fr-FR : Veuillez préfixer votre n° de téléphone par 00 pour l'étranger.
+     index : 4
+   -
+     text :
+      fr-FR : Le n° de téléphone indiqué semble incomplet.
+     index : 5
+   -
+     text :
+      fr-FR : Voulez-vous enregistrer quand même le n° saisi ?
+     index : 6
+   -
+     text :
+      fr-FR : "Le code postal '%1' semble incorrect par rapport à la ville '%2' "
+     index : 7
+   -
+     text :
+      fr-FR : Enregistrer quand même ?
+     index : 8
+   -
+     text :
+      fr-FR : Veuillez indiquer les 5 chiffres de votre code postal.
+     index : 9
+   -
+     text :
+      fr-FR : Le code postal indiqué ne peut être vérifié.
+     index : 10
+   -
+     text :
+      fr-FR : Voulez-vous enregistrer quand même le code postal saisi ?
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
